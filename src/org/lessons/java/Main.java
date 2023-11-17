@@ -11,6 +11,20 @@ public class Main {
 		while (c1.hasAncoraElementi()) {			
 			System.out.println(c1.getElementoSuccessivo());
 		}
+		
+		System.out.println("___________________________\n");
+		
+		CicloItero c2 = new CicloItero();
+		c2.addElemento(6);
+		c2.addElemento(7);
+		c2.addElemento(8);
+		c2.addElemento(10);
+		c2.addElemento(24);
+		c2.addElemento(53);
+		
+		while (c2.hasAncoraElementi()) {			
+		    System.out.println(c2.getElementoSuccessivo());
+		}
 	}
 
 }
